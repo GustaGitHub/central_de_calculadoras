@@ -1,0 +1,33 @@
+body{
+   background-color: #4ca5c0;
+}
+#title-nav{
+   background-color: #91d8ee;
+   color: white;
+   padding: 10px;
+}
+#links-calc{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   padding: 8px;
+   background-color:#72cada;
+}
+#links-calc a{
+   text-decoration: none;
+}
+.calc-flex-display{
+   display: flex;
+   flex-direction: row;
+}
+#temp-btn{
+   background-color: rgb(219, 219, 219);
+   border-radius: 10px;
+   padding: 10px 15px 10px 15px;
+}
+@media (max-width: 635px){
+   #links-calc a{
+      font-size: 9pt;
+   }
+}
